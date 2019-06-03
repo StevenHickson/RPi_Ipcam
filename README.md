@@ -9,8 +9,13 @@ Requirements/libraries
 * OpenCV 2
 
 Installation (Raspbian stretch lite):
-* ```sudo apt-get install python-opencv```
+
+```sudo apt-get install python-opencv```
 
 Run the server:
-* ```python mjpg_serve.py```
 
+```python mjpg_serve.py```
+
+Open a web browser to:
+
+```http:\\raspberrypi.local:8080```  (replace with your hostname as appropriate)
